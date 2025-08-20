@@ -13,7 +13,7 @@ This project was created for a Web-Based Applications course at the University o
 ## Getting Started
 
 1. Open the project folder `Parking for U - Web App` in a code editor (e.g., VS Code).
-2. CD into the 'parking_project' folder to access 'manage.py':
+2. CD into the `parking_project` folder to access `manage.py`:
    ```bash
    cd parking_project
    ```
