@@ -1,10 +1,36 @@
 # U-of-U-Parking-Application
- A website that links to a database containing information on University  parking permits, lots, spaces, administrators and students.
 
- This project was created for a Web-Based Applications course at the University of Utah. 
- See the file "Web App Login Info" for information on how to access the web app.
+A website that links to a database containing information on University parking permits, lots, spaces, administrators, and students.  
+This project was created for a Web-Based Applications course at the University of Utah.
 
- The web app has two user groups, students and administrators.
- Students can view and apply for permits, as well as view and pay for violations they may have.
- 
- Keep in mind the app was created in an educational setting and any data is purely for testing purposes. 
+## Features
+
+- Two user groups: students and administrators
+- Secure admin login and session management
+- Management of parking permits and lots
+- Admin dashboard for university staff
+
+## Getting Started
+
+1. Open the project folder `Parking for U - Web App` in a code editor (e.g., VS Code).
+2. Run and debug the `manage.py` file using Django:
+   ```bash
+   python manage.py runserver
+   ```
+3. Visit the development server link in your browser (shown in the terminal).
+4. Use the credentials in **Web App Login Info** to log in and explore the app.
+
+## Notes
+
+- Data is for testing/demonstration and not real-time.
+- Only administrators can access certain features (configured via Django admin).
+- Student accounts are form entries, not Django admin users.
+- Only the admin account appears in the Django admin interface.
+
+## License
+
+_No license yet_
+
+## Author
+
+[Carter Jones](https://github.com/carterjones25)
