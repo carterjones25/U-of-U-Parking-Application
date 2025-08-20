@@ -13,12 +13,16 @@ This project was created for a Web-Based Applications course at the University o
 ## Getting Started
 
 1. Open the project folder `Parking for U - Web App` in a code editor (e.g., VS Code).
-2. Run and debug the `manage.py` file using Django:
+2. CD into the parking_project folder to access manage.py
+   ```bash
+   cd parking_project
+   ```
+4. Run and debug the `manage.py` file using Django:
    ```bash
    python manage.py runserver
    ```
-3. Visit the development server link in your browser (shown in the terminal).
-4. Use the credentials in **Web App Login Info** to log in and explore the app.
+5. Visit the development server link in your browser (shown in the terminal).
+6. Use the credentials in **Web App Login Info** to log in and explore the app.
 
 ## Notes
 
